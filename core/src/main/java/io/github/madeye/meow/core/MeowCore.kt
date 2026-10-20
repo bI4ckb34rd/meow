@@ -78,4 +78,21 @@ object MeowCore {
         level: String,
         kind: String,
     ): String?
+
+    /**
+     * Records a `network.change` entry in the engine's logbook: [message]
+     * is one English sentence, [fields] a JSON object of its details, and
+     * [warning] picks the level over info. Dropped while no engine has
+     * started in this process or its profile turned the logbook off.
+     */
+    external fun nativeRecordNetworkChange(warning: Boolean, message: String, fields: String)
+
+    /**
+     * The network the engine's sockets go out on changed to [network]
+     * (`Wi-Fi 324`): closes the engine's connections and UDP sessions, drops
+     * its pooled DNS upstream connections and resets its proxies' pooled
+     * sessions, in the background, and records it as a `network.change`.
+     * Returns at once; nothing happens while no engine runs.
+     */
+    external fun nativeResetOutbound(network: String)
 }
