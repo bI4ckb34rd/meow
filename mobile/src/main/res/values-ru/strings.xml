@@ -302,6 +302,34 @@
     <string name="statistics_policies">Политики</string>
     <string name="statistics_total">Всего %1$s</string>
 
+    <!-- Logbook -->
+    <string name="logbook_title">Отпечатки лап</string>
+    <string name="logbook_empty">Пока ничего не записано</string>
+    <string name="logbook_empty_hint">Запуски и остановки ядра, аварийные завершения, ошибки конфигурации и провайдеров, смены и проверки промежуточного прокси хранятся здесь неделю.</string>
+    <string name="logbook_kind_engine_start">Запуск ядра</string>
+    <string name="logbook_kind_engine_stop">Остановка ядра</string>
+    <string name="logbook_kind_engine_unclean_exit">Аварийное завершение</string>
+    <string name="logbook_kind_logbook_cleared">Отпечатки лап очищены</string>
+    <string name="logbook_kind_logbook_reset">Отпечатки лап пересозданы</string>
+    <string name="logbook_kind_config_reload">Перезагрузка конфигурации</string>
+    <string name="logbook_kind_config_change">Изменение конфигурации</string>
+    <string name="logbook_kind_subscription_update">Обновление подписки</string>
+    <string name="logbook_kind_proxy_provider_update">Обновление провайдера прокси</string>
+    <string name="logbook_kind_rule_provider_update">Обновление набора правил</string>
+    <string name="logbook_kind_geodata_update">Обновление геоданных</string>
+    <string name="logbook_kind_listener_start">Запуск слушателя</string>
+    <string name="logbook_kind_network_interface">Исходящий интерфейс</string>
+    <string name="logbook_kind_dialer_proxy_switch">Смена промежуточного прокси</string>
+    <string name="logbook_kind_dialer_proxy_check">Проверка через промежуточный прокси</string>
+    <string name="logbook_search">Поиск событий…</string>
+    <string name="logbook_search_empty">Нет событий по запросу «%1$s»</string>
+    <string name="logbook_filter">Фильтр событий</string>
+    <string name="logbook_filter_all">Все события</string>
+    <string name="logbook_filter_empty">Событий «%1$s» пока нет</string>
+    <string name="logbook_first">Впервые</string>
+    <string name="logbook_last">Последний раз</string>
+    <string name="logbook_read_failed">Не удалось прочитать отпечатки лап: %1$s</string>
+
     <!-- Per-app proxy -->
     <string name="perapp_title">Прокси для приложений</string>
     <string name="perapp_desc">Выберите, какие приложения используют VPN</string>

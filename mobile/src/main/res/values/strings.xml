@@ -303,6 +303,34 @@
     <string name="statistics_policies">Policies</string>
     <string name="statistics_total">Total %1$s</string>
 
+    <!-- Logbook -->
+    <string name="logbook_title">Paw Print</string>
+    <string name="logbook_empty">Nothing recorded yet</string>
+    <string name="logbook_empty_hint">Engine starts and stops, unclean exits, config and provider failures, and dialer proxy switches and checks are kept here for a week.</string>
+    <string name="logbook_kind_engine_start">Engine Started</string>
+    <string name="logbook_kind_engine_stop">Engine Stopped</string>
+    <string name="logbook_kind_engine_unclean_exit">Unclean Exit</string>
+    <string name="logbook_kind_logbook_cleared">Paw Print Cleared</string>
+    <string name="logbook_kind_logbook_reset">Paw Print Reset</string>
+    <string name="logbook_kind_config_reload">Config Reload</string>
+    <string name="logbook_kind_config_change">Config Change</string>
+    <string name="logbook_kind_subscription_update">Subscription Update</string>
+    <string name="logbook_kind_proxy_provider_update">Proxy Provider Update</string>
+    <string name="logbook_kind_rule_provider_update">Rule Set Update</string>
+    <string name="logbook_kind_geodata_update">Geodata Update</string>
+    <string name="logbook_kind_listener_start">Listener Start</string>
+    <string name="logbook_kind_network_interface">Outbound Interface</string>
+    <string name="logbook_kind_dialer_proxy_switch">Dialer Proxy Switch</string>
+    <string name="logbook_kind_dialer_proxy_check">Dialer Proxy Check</string>
+    <string name="logbook_search">Search events…</string>
+    <string name="logbook_search_empty">No events match “%1$s”</string>
+    <string name="logbook_filter">Filter events</string>
+    <string name="logbook_filter_all">All Events</string>
+    <string name="logbook_filter_empty">No “%1$s” events yet</string>
+    <string name="logbook_first">First</string>
+    <string name="logbook_last">Last</string>
+    <string name="logbook_read_failed">Could not read Paw Print: %1$s</string>
+
     <!-- Per-app proxy -->
     <string name="perapp_title">Per-App Proxy</string>
     <string name="perapp_desc">Select which apps use the VPN</string>
